@@ -4,7 +4,7 @@ A single-file client-side web app to generate barcodes from 16-digit bonus codes
 
 # Demo
 
-[Click here to view on Github Pages]([https://www.genome.gov/](https://doubleyouthree.github.io/wm-barcode-generator/))
+[Click here to view on Github Pages](https://doubleyouthree.github.io/wm-barcode-generator/)
 
 ## Features
 - 16-digit code validation (digits only)
