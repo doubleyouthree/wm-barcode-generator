@@ -74,6 +74,11 @@ button { cursor: pointer; border-radius: 10px; border: 1px solid transparent; he
 .help { color: var(--muted); margin-top: 6px; }
 .error { color: var(--danger); margin-top: 8px; min-height: 20px; }
 
+/* Links */
+a { color: var(--primary); text-decoration: none; }
+a:visited { color: var(--primary); }
+a:hover { color: var(--primary-600); text-decoration: underline; }
+
 .result-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .label { color: var(--muted); font-size: 12px; }
 .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
@@ -157,7 +162,10 @@ footer { margin-top: 24px; color: var(--muted); }
         </section>
 
         <footer>
-            <small>Barcodes generated client-side using <a href="https://github.com/lindell/JsBarcode" target="_blank" rel="noreferrer noopener">JsBarcode</a>.</small>
+            <small>
+                Barcode history  stored locally in <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage">localStorage</a> · Barcodes generated client-side using <a href="https://github.com/lindell/JsBarcode" target="_blank" rel="noreferrer noopener">JsBarcode</a>
+                · <a href="https://github.com/doubleyouthree/wm-barcode-generator" target="_blank" rel="noreferrer noopener">GitHub repo</a>
+            </small>
         </footer>
     </div>
 
