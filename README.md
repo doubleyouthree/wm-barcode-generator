@@ -2,6 +2,10 @@
 
 A single-file client-side web app to generate barcodes from 16-digit bonus codes. It prepends the prefix `79936686504000` and renders a CODE128 barcode using JsBarcode. Generated barcodes can be downloaded as PNG. Submitted codes are saved in localStorage with status controls (partially used, archive) and an option to show archived.
 
+# Demo
+
+[Click here to view on Github Pages]([https://www.genome.gov/](https://doubleyouthree.github.io/wm-barcode-generator/))
+
 ## Features
 - 16-digit code validation (digits only)
 - Full barcode text = `79936686504000` + your 16-digit code
